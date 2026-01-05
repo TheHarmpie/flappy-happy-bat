@@ -1,1 +1,7 @@
+The game should minimally include the following features:
 
+- A bat that can be controlled by the player (using spacebar to flap). It is affected by gravity. A flap gives it some upward velocity. The player should have a bounding box for collision detection.
+- Pipes that move from right to left. The pipes should have a gap that the bat can fly through. The pipes should have bounding boxes for collision detection.
+- A pipe generator that creates new pipes at regular intervals.
+- A scoring system that displays a score on the screen. Score increases by 1 when the bat successfully flies through a pair of pipes.
+- A game over when the bat collides with a pipe.
